@@ -6,79 +6,79 @@
 #    By: adstan <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/12/11 16:16:33 by adstan            #+#    #+#              #
-#    Updated: 2018/01/07 16:56:31 by adstan           ###   ########.fr        #
+#    Updated: 2018/01/29 19:32:50 by adstan           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME2 = libft.a
+NAME2 = libt.a
 
 NAME = fillit
 
-SRC =	./libft/ft_memset.c \
-		./libft/ft_bzero.c \
-		./libft/ft_memcpy.c \
-		./libft/ft_memccpy.c \
-		./libft/ft_memmove.c \
-		./libft/ft_memchr.c \
-		./libft/ft_memcmp.c \
-		./libft/ft_strlen.c \
-		./libft/ft_strdup.c \
-		./libft/ft_strcpy.c \
-		./libft/ft_strncpy.c \
-		./libft/ft_strcat.c \
-		./libft/ft_strncat.c \
-		./libft/ft_strlcat.c \
-		./libft/ft_strchr.c \
-		./libft/ft_strrchr.c \
-		./libft/ft_strstr.c \
-		./libft/ft_strnstr.c \
-		./libft/ft_strcmp.c \
-		./libft/ft_strncmp.c \
-		./libft/ft_atoi.c \
-		./libft/ft_isalpha.c \
-		./libft/ft_isdigit.c \
-		./libft/ft_isalnum.c \
-		./libft/ft_isascii.c \
-		./libft/ft_isprint.c \
-		./libft/ft_toupper.c \
-		./libft/ft_tolower.c \
-		./libft/ft_memalloc.c \
-		./libft/ft_memdel.c \
-		./libft/ft_strnew.c \
-		./libft/ft_strdel.c \
-		./libft/ft_strclr.c \
-		./libft/ft_striter.c \
-		./libft/ft_striteri.c \
-		./libft/ft_strmap.c \
-		./libft/ft_strmapi.c \
-		./libft/ft_strequ.c \
-		./libft/ft_strnequ.c \
-		./libft/ft_strsub.c \
-		./libft/ft_strjoin.c \
-		./libft/ft_strtrim.c \
-		./libft/ft_strsplit.c \
-		./libft/ft_itoa.c \
-		./libft/ft_putchar.c \
-		./libft/ft_putstr.c \
-		./libft/ft_putendl.c \
-		./libft/ft_putnbr.c \
-		./libft/ft_putchar_fd.c \
-		./libft/ft_putstr_fd.c \
-		./libft/ft_putendl_fd.c \
-		./libft/ft_putnbr_fd.c \
-		./libft/ft_lstnew.c \
-		./libft/ft_lstdelone.c \
-		./libft/ft_lstdel.c \
-		./libft/ft_lstadd.c \
-		./libft/ft_lstiter.c \
-		./libft/ft_lstmap.c \
-		./libft/ft_isprime.c \
-		./libft/ft_isperfect.c \
-		./libft/ft_abs.c \
-		./libft/ft_reverse.c \
-		./libft/ft_power.c \
-		./libft/ft_abs.c \
-		./libft/ft_sqrt.c
+SRC =	./lib/ft_memset.c \
+		./lib/ft_bzero.c \
+		./lib/ft_memcpy.c \
+		./lib/ft_memccpy.c \
+		./lib/ft_memmove.c \
+		./lib/ft_memchr.c \
+		./lib/ft_memcmp.c \
+		./lib/ft_strlen.c \
+		./lib/ft_strdup.c \
+		./lib/ft_strcpy.c \
+		./lib/ft_strncpy.c \
+		./lib/ft_strcat.c \
+		./lib/ft_strncat.c \
+		./lib/ft_strlcat.c \
+		./lib/ft_strchr.c \
+		./lib/ft_strrchr.c \
+		./lib/ft_strstr.c \
+		./lib/ft_strnstr.c \
+		./lib/ft_strcmp.c \
+		./lib/ft_strncmp.c \
+		./lib/ft_atoi.c \
+		./lib/ft_isalpha.c \
+		./lib/ft_isdigit.c \
+		./lib/ft_isalnum.c \
+		./lib/ft_isascii.c \
+		./lib/ft_isprint.c \
+		./lib/ft_toupper.c \
+		./lib/ft_tolower.c \
+		./lib/ft_memalloc.c \
+		./lib/ft_memdel.c \
+		./lib/ft_strnew.c \
+		./lib/ft_strdel.c \
+		./lib/ft_strclr.c \
+		./lib/ft_striter.c \
+		./lib/ft_striteri.c \
+		./lib/ft_strmap.c \
+		./lib/ft_strmapi.c \
+		./lib/ft_strequ.c \
+		./lib/ft_strnequ.c \
+		./lib/ft_strsub.c \
+		./lib/ft_strjoin.c \
+		./lib/ft_strtrim.c \
+		./lib/ft_strsplit.c \
+		./lib/ft_itoa.c \
+		./lib/ft_putchar.c \
+		./lib/ft_putstr.c \
+		./lib/ft_putendl.c \
+		./lib/ft_putnbr.c \
+		./lib/ft_putchar_fd.c \
+		./lib/ft_putstr_fd.c \
+		./lib/ft_putendl_fd.c \
+		./lib/ft_putnbr_fd.c \
+		./lib/ft_lstnew.c \
+		./lib/ft_lstdelone.c \
+		./lib/ft_lstdel.c \
+		./lib/ft_lstadd.c \
+		./lib/ft_lstiter.c \
+		./lib/ft_lstmap.c \
+		./lib/ft_isprime.c \
+		./lib/ft_isperfect.c \
+		./lib/ft_abs.c \
+		./lib/ft_reverse.c \
+		./lib/ft_power.c \
+		./lib/ft_abs.c \
+		./lib/ft_sqrt.c
 
 SRC_FIL =	checker.c         \
 			create_pieces.c   \
