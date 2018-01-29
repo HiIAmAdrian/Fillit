@@ -6,11 +6,11 @@
 /*   By: adstan <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/12/15 15:56:17 by adstan            #+#    #+#             */
-/*   Updated: 2017/12/30 15:29:41 by adstan           ###   ########.fr       */
+/*   Updated: 2018/01/29 19:45:36 by adstan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./libft/libft.h"
+#include "./lib/libft.h"
 
 int		bk(unsigned short *m, t_piesa *piesa, int n, int k)
 {

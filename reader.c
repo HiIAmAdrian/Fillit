@@ -6,11 +6,11 @@
 /*   By: adstan <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/12/29 19:39:05 by adstan            #+#    #+#             */
-/*   Updated: 2017/12/30 15:37:35 by adstan           ###   ########.fr       */
+/*   Updated: 2018/01/29 19:45:56 by adstan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./libft/libft.h"
+#include "./lib/libft.h"
 
 t_list	*citire(char *argv)
 {

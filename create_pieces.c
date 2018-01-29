@@ -6,11 +6,11 @@
 /*   By: adstan <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/12/29 19:54:37 by adstan            #+#    #+#             */
-/*   Updated: 2018/01/07 16:51:44 by adstan           ###   ########.fr       */
+/*   Updated: 2018/01/29 19:45:26 by adstan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./libft/libft.h"
+#include "./lib/libft.h"
 
 void	assign_coords(int coords[], int casee, int i, int j)
 {

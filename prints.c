@@ -6,11 +6,11 @@
 /*   By: adstan <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/12/30 13:57:10 by adstan            #+#    #+#             */
-/*   Updated: 2017/12/30 15:13:46 by adstan           ###   ########.fr       */
+/*   Updated: 2018/01/29 19:45:46 by adstan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./libft/libft.h"
+#include "./lib/libft.h"
 
 void	print_sol(t_piesa *piesa, t_piesa *piesa2, int n)
 {

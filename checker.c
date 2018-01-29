@@ -6,11 +6,11 @@
 /*   By: adstan <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/12/29 19:28:32 by adstan            #+#    #+#             */
-/*   Updated: 2017/12/30 15:13:09 by adstan           ###   ########.fr       */
+/*   Updated: 2018/01/29 19:45:16 by adstan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./libft/libft.h"
+#include "./lib/libft.h"
 
 int		nr_vecini(char a[4][4], int i, int j)
 {
